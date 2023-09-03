@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#hero{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(50, 149, 188);
+   
+   
+}
+
+.Note{
+    width: 420px;
+    height: 400px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    border-radius: 15px;
+   
+   
+
+}
+.nav{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    
+    
+
+}
+#save, #delete{
+    font-size: 15px;
+    float: right;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    margin: 9px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+/* #save:hover,#delete:hover{
+    background-color: ;
+    color: black;
+
+} */
+textarea{
+
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    font-size: 20px;
+  
+}
+
+#add-note{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    right: 10px;
+    top: 6px;
+    padding: 4px;
+    cursor: pointer;
+}
+#add-note:hover{
+    color: black;
+    background-color: white;
+}
+
+/* MEDIA QUERIES CODE */
+
+  @media only screen and (max-width: 375px) {
+    .Note{
+        /* width: 400px; */
+        width: 95%;
+        height: 80vh;
+        background-color: white;
+        margin-left: 2.5%;
+        margin-top: 50px;
+        margin-bottom: 5%;
+        
+       
+       
+    
+    }
+    #add-note{
+        font-size: 15px;
+    }
+  }
+
+
+  @media (min-width: 376px) and (max-width: 420px){
+   
+    .Note{
+       
+        width: 95%;
+        height: 80vh;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-bottom: 5%;
+       
+       
+       
+    
+    }
+  }
+
+  @media (min-width: 421px) and (max-width :609px){
+
+    .Note{
+       
+        width: 95%;
+        height: 80vh;
+        background-color: white;
+        margin-left: 2.5%;
+        margin-top: 50px;
+        margin-bottom: 5%;
+      
+       
+       
+    
+    }
+  }
+
+  @media (min-width: 610px) and   (max-width :799px) {
+
+    .Note{
+       
+        width: 45%;
+        height: 80vh;
+        background-color: white;
+        margin-left: 2.5%;
+        margin-top: 50px;
+        margin-bottom: 5%;
+      
+       
+       
+    
+    }
+  }
+
+  @media  (min-width :800px){
+    .Note{
+        
+        width: 30%;
+        height: 80vh;
+        background-color: white;
+        margin-left: 2.5%;
+        margin-top: 50px;
+        margin-bottom: 5%;
+       
+       
+    
+    }
+  }
